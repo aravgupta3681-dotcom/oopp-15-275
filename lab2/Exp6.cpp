@@ -8,7 +8,7 @@ private:
 
 public:
     Employee(double s) : salary(s), newSalary(&salary) {}
-int
+
     void updateSalary() {
         *newSalary = *newSalary + (*newSalary * 0.10);
     }
