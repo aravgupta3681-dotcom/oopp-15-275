@@ -16,8 +16,6 @@ public:
         cout << "Enter y: ";
         cin >> y;
     }
-
-    // Show method
     void show()
     {
         cout << "x = " << x << ", y = " << y << endl;
