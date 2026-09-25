@@ -9,7 +9,7 @@ void input(string &name, string &branch, string &roll_no,int marks[]) {
    
     for(int i = 0; i < 5; i++) {
         cin >> marks[i];}
-    perm
+    
 }
 
 void findSum( int marks[],int &total_marks, double &percent) {
